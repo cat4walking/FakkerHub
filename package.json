@@ -4,7 +4,7 @@
   "description": "This is Nodejs project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/cat4walking/FakkerHub#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
     "express-session": "^1.17.2",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0"
